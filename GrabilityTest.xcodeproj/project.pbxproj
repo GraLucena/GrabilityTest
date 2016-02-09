@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		335F158000673B58F29152DF /* libPods-GrabilityTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA0AB39D057AC2E1AF91819 /* libPods-GrabilityTest.a */; };
+		3CAB14F71C65945900ECAE6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB14F61C65945900ECAE6C /* main.m */; };
+		3CAB14FA1C65945900ECAE6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB14F91C65945900ECAE6C /* AppDelegate.m */; };
+		3CAB14FD1C65945900ECAE6C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB14FC1C65945900ECAE6C /* MainViewController.m */; };
+		3CAB15001C65945900ECAE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CAB14FE1C65945900ECAE6C /* Main.storyboard */; };
+		3CAB15031C65945900ECAE6C /* GrabilityTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15011C65945900ECAE6C /* GrabilityTest.xcdatamodeld */; };
+		3CAB15051C65945900ECAE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CAB15041C65945900ECAE6C /* Assets.xcassets */; };
+		3CAB15081C65945900ECAE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CAB15061C65945900ECAE6C /* LaunchScreen.storyboard */; };
+		3CAB15181C659F6600ECAE6C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3CAB15171C659F6600ECAE6C /* Podfile */; };
+		3CAB151E1C65A4D900ECAE6C /* APIConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB151D1C65A4D900ECAE6C /* APIConnection.m */; };
+		3CAB15211C66E4D800ECAE6C /* attributesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15201C66E4D800ECAE6C /* attributesModel.m */; };
+		3CAB15241C66E59100ECAE6C /* nameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15231C66E59100ECAE6C /* nameModel.m */; };
+		3CAB15271C66E5EF00ECAE6C /* imageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15261C66E5EF00ECAE6C /* imageModel.m */; };
+		3CAB152A1C66E66500ECAE6C /* summaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15291C66E66500ECAE6C /* summaryModel.m */; };
+		3CAB152D1C66E6A400ECAE6C /* priceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB152C1C66E6A400ECAE6C /* priceModel.m */; };
+		3CAB15301C66E71B00ECAE6C /* contentTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB152F1C66E71B00ECAE6C /* contentTypeModel.m */; };
+		3CAB15331C66E74000ECAE6C /* rightsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15321C66E74000ECAE6C /* rightsModel.m */; };
+		3CAB15361C66E76000ECAE6C /* titleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15351C66E76000ECAE6C /* titleModel.m */; };
+		3CAB15421C66E8D800ECAE6C /* entryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15411C66E8D800ECAE6C /* entryModel.m */; };
+		3CAB15451C66EA0700ECAE6C /* linkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15441C66EA0700ECAE6C /* linkModel.m */; };
+		3CAB15481C66EC3A00ECAE6C /* idModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15471C66EC3A00ECAE6C /* idModel.m */; };
+		3CAB154C1C66ECBB00ECAE6C /* artistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB154B1C66ECBB00ECAE6C /* artistModel.m */; };
+		3CAB154F1C66ECE600ECAE6C /* categoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB154E1C66ECE600ECAE6C /* categoryModel.m */; };
+		3CAB15521C66ED0C00ECAE6C /* releaseDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15511C66ED0C00ECAE6C /* releaseDateModel.m */; };
+		3CAB15551C68EFC400ECAE6C /* manageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15541C68EFC400ECAE6C /* manageData.m */; };
+		3CAB155B1C69063000ECAE6C /* CategoriesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB155A1C69063000ECAE6C /* CategoriesTableViewCell.m */; };
+		3CAB155E1C69118300ECAE6C /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB155D1C69118300ECAE6C /* CategoriesViewController.m */; };
+		3CAB15611C697A4B00ECAE6C /* AppsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15601C697A4B00ECAE6C /* AppsTableViewCell.m */; };
+		3CAB15641C69863B00ECAE6C /* feedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15631C69863B00ECAE6C /* feedModel.m */; };
+		3CAB15671C69AC9800ECAE6C /* AppDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15661C69AC9800ECAE6C /* AppDetailViewController.m */; };
+		3CAB156A1C6A648300ECAE6C /* AppsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB15691C6A648300ECAE6C /* AppsCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CA0AB39D057AC2E1AF91819 /* libPods-GrabilityTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GrabilityTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAB14F21C65945900ECAE6C /* GrabilityTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrabilityTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAB14F61C65945900ECAE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CAB14F81C65945900ECAE6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CAB14F91C65945900ECAE6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CAB14FB1C65945900ECAE6C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3CAB14FC1C65945900ECAE6C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3CAB14FF1C65945900ECAE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CAB15021C65945900ECAE6C /* GrabilityTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrabilityTest.xcdatamodel; sourceTree = "<group>"; };
+		3CAB15041C65945900ECAE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CAB15071C65945900ECAE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CAB15091C65945900ECAE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAB15171C659F6600ECAE6C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3CAB151C1C65A4D900ECAE6C /* APIConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConnection.h; sourceTree = "<group>"; };
+		3CAB151D1C65A4D900ECAE6C /* APIConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIConnection.m; sourceTree = "<group>"; };
+		3CAB151F1C66E4D800ECAE6C /* attributesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attributesModel.h; sourceTree = "<group>"; };
+		3CAB15201C66E4D800ECAE6C /* attributesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = attributesModel.m; sourceTree = "<group>"; };
+		3CAB15221C66E59100ECAE6C /* nameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nameModel.h; sourceTree = "<group>"; };
+		3CAB15231C66E59100ECAE6C /* nameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nameModel.m; sourceTree = "<group>"; };
+		3CAB15251C66E5EF00ECAE6C /* imageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageModel.h; sourceTree = "<group>"; };
+		3CAB15261C66E5EF00ECAE6C /* imageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageModel.m; sourceTree = "<group>"; };
+		3CAB15281C66E66500ECAE6C /* summaryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = summaryModel.h; sourceTree = "<group>"; };
+		3CAB15291C66E66500ECAE6C /* summaryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = summaryModel.m; sourceTree = "<group>"; };
+		3CAB152B1C66E6A400ECAE6C /* priceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = priceModel.h; sourceTree = "<group>"; };
+		3CAB152C1C66E6A400ECAE6C /* priceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = priceModel.m; sourceTree = "<group>"; };
+		3CAB152E1C66E71B00ECAE6C /* contentTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contentTypeModel.h; sourceTree = "<group>"; };
+		3CAB152F1C66E71B00ECAE6C /* contentTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contentTypeModel.m; sourceTree = "<group>"; };
+		3CAB15311C66E74000ECAE6C /* rightsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rightsModel.h; sourceTree = "<group>"; };
+		3CAB15321C66E74000ECAE6C /* rightsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rightsModel.m; sourceTree = "<group>"; };
+		3CAB15341C66E76000ECAE6C /* titleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = titleModel.h; sourceTree = "<group>"; };
+		3CAB15351C66E76000ECAE6C /* titleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = titleModel.m; sourceTree = "<group>"; };
+		3CAB15401C66E8D800ECAE6C /* entryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entryModel.h; sourceTree = "<group>"; };
+		3CAB15411C66E8D800ECAE6C /* entryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = entryModel.m; sourceTree = "<group>"; };
+		3CAB15431C66EA0700ECAE6C /* linkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linkModel.h; sourceTree = "<group>"; };
+		3CAB15441C66EA0700ECAE6C /* linkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = linkModel.m; sourceTree = "<group>"; };
+		3CAB15461C66EC3A00ECAE6C /* idModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idModel.h; sourceTree = "<group>"; };
+		3CAB15471C66EC3A00ECAE6C /* idModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = idModel.m; sourceTree = "<group>"; };
+		3CAB154A1C66ECBB00ECAE6C /* artistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = artistModel.h; sourceTree = "<group>"; };
+		3CAB154B1C66ECBB00ECAE6C /* artistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = artistModel.m; sourceTree = "<group>"; };
+		3CAB154D1C66ECE600ECAE6C /* categoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = categoryModel.h; sourceTree = "<group>"; };
+		3CAB154E1C66ECE600ECAE6C /* categoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = categoryModel.m; sourceTree = "<group>"; };
+		3CAB15501C66ED0C00ECAE6C /* releaseDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = releaseDateModel.h; sourceTree = "<group>"; };
+		3CAB15511C66ED0C00ECAE6C /* releaseDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = releaseDateModel.m; sourceTree = "<group>"; };
+		3CAB15531C68EFC400ECAE6C /* manageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = manageData.h; sourceTree = "<group>"; };
+		3CAB15541C68EFC400ECAE6C /* manageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = manageData.m; sourceTree = "<group>"; };
+		3CAB15591C69063000ECAE6C /* CategoriesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesTableViewCell.h; sourceTree = "<group>"; };
+		3CAB155A1C69063000ECAE6C /* CategoriesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesTableViewCell.m; sourceTree = "<group>"; };
+		3CAB155C1C69118300ECAE6C /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
+		3CAB155D1C69118300ECAE6C /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
+		3CAB155F1C697A4B00ECAE6C /* AppsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsTableViewCell.h; sourceTree = "<group>"; };
+		3CAB15601C697A4B00ECAE6C /* AppsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppsTableViewCell.m; sourceTree = "<group>"; };
+		3CAB15621C69863B00ECAE6C /* feedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedModel.h; sourceTree = "<group>"; };
+		3CAB15631C69863B00ECAE6C /* feedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedModel.m; sourceTree = "<group>"; };
+		3CAB15651C69AC9800ECAE6C /* AppDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailViewController.h; sourceTree = "<group>"; };
+		3CAB15661C69AC9800ECAE6C /* AppDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailViewController.m; sourceTree = "<group>"; };
+		3CAB15681C6A648300ECAE6C /* AppsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsCollectionViewCell.h; sourceTree = "<group>"; };
+		3CAB15691C6A648300ECAE6C /* AppsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppsCollectionViewCell.m; sourceTree = "<group>"; };
+		AEC647D8AE2E177E890FA915 /* Pods-GrabilityTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabilityTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrabilityTest/Pods-GrabilityTest.debug.xcconfig"; sourceTree = "<group>"; };
+		AFF0C20481DB4EDAE8B70A4E /* Pods-GrabilityTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabilityTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrabilityTest/Pods-GrabilityTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CAB14EF1C65945900ECAE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335F158000673B58F29152DF /* libPods-GrabilityTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CAB14E91C65945900ECAE6C = {
+			isa = PBXGroup;
+			children = (
+				3CAB15171C659F6600ECAE6C /* Podfile */,
+				3CAB14F41C65945900ECAE6C /* GrabilityTest */,
+				3CAB14F31C65945900ECAE6C /* Products */,
+				DD7D72D1B03CC6EE149A725E /* Pods */,
+				94F13B0BF2A5F5A44A56B328 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CAB14F31C65945900ECAE6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB14F21C65945900ECAE6C /* GrabilityTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CAB14F41C65945900ECAE6C /* GrabilityTest */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB15121C65948200ECAE6C /* Service */,
+				3CAB15111C65947600ECAE6C /* Controller */,
+				3CAB15101C65946A00ECAE6C /* View */,
+				3CAB150F1C65946200ECAE6C /* Model */,
+				3CAB14F81C65945900ECAE6C /* AppDelegate.h */,
+				3CAB14F91C65945900ECAE6C /* AppDelegate.m */,
+				3CAB15041C65945900ECAE6C /* Assets.xcassets */,
+				3CAB15091C65945900ECAE6C /* Info.plist */,
+				3CAB15011C65945900ECAE6C /* GrabilityTest.xcdatamodeld */,
+				3CAB14F51C65945900ECAE6C /* Supporting Files */,
+			);
+			path = GrabilityTest;
+			sourceTree = "<group>";
+		};
+		3CAB14F51C65945900ECAE6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB14F61C65945900ECAE6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CAB150F1C65946200ECAE6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB154A1C66ECBB00ECAE6C /* artistModel.h */,
+				3CAB154B1C66ECBB00ECAE6C /* artistModel.m */,
+				3CAB151F1C66E4D800ECAE6C /* attributesModel.h */,
+				3CAB15201C66E4D800ECAE6C /* attributesModel.m */,
+				3CAB154D1C66ECE600ECAE6C /* categoryModel.h */,
+				3CAB154E1C66ECE600ECAE6C /* categoryModel.m */,
+				3CAB152E1C66E71B00ECAE6C /* contentTypeModel.h */,
+				3CAB152F1C66E71B00ECAE6C /* contentTypeModel.m */,
+				3CAB15401C66E8D800ECAE6C /* entryModel.h */,
+				3CAB15411C66E8D800ECAE6C /* entryModel.m */,
+				3CAB15621C69863B00ECAE6C /* feedModel.h */,
+				3CAB15631C69863B00ECAE6C /* feedModel.m */,
+				3CAB15461C66EC3A00ECAE6C /* idModel.h */,
+				3CAB15471C66EC3A00ECAE6C /* idModel.m */,
+				3CAB15251C66E5EF00ECAE6C /* imageModel.h */,
+				3CAB15261C66E5EF00ECAE6C /* imageModel.m */,
+				3CAB15431C66EA0700ECAE6C /* linkModel.h */,
+				3CAB15441C66EA0700ECAE6C /* linkModel.m */,
+				3CAB15531C68EFC400ECAE6C /* manageData.h */,
+				3CAB15541C68EFC400ECAE6C /* manageData.m */,
+				3CAB15221C66E59100ECAE6C /* nameModel.h */,
+				3CAB15231C66E59100ECAE6C /* nameModel.m */,
+				3CAB152B1C66E6A400ECAE6C /* priceModel.h */,
+				3CAB152C1C66E6A400ECAE6C /* priceModel.m */,
+				3CAB15501C66ED0C00ECAE6C /* releaseDateModel.h */,
+				3CAB15511C66ED0C00ECAE6C /* releaseDateModel.m */,
+				3CAB15311C66E74000ECAE6C /* rightsModel.h */,
+				3CAB15321C66E74000ECAE6C /* rightsModel.m */,
+				3CAB15281C66E66500ECAE6C /* summaryModel.h */,
+				3CAB15291C66E66500ECAE6C /* summaryModel.m */,
+				3CAB15341C66E76000ECAE6C /* titleModel.h */,
+				3CAB15351C66E76000ECAE6C /* titleModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3CAB15101C65946A00ECAE6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB14FE1C65945900ECAE6C /* Main.storyboard */,
+				3CAB15061C65945900ECAE6C /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3CAB15111C65947600ECAE6C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB14FB1C65945900ECAE6C /* MainViewController.h */,
+				3CAB14FC1C65945900ECAE6C /* MainViewController.m */,
+				3CAB15591C69063000ECAE6C /* CategoriesTableViewCell.h */,
+				3CAB155A1C69063000ECAE6C /* CategoriesTableViewCell.m */,
+				3CAB155C1C69118300ECAE6C /* CategoriesViewController.h */,
+				3CAB155D1C69118300ECAE6C /* CategoriesViewController.m */,
+				3CAB155F1C697A4B00ECAE6C /* AppsTableViewCell.h */,
+				3CAB15601C697A4B00ECAE6C /* AppsTableViewCell.m */,
+				3CAB15651C69AC9800ECAE6C /* AppDetailViewController.h */,
+				3CAB15661C69AC9800ECAE6C /* AppDetailViewController.m */,
+				3CAB15681C6A648300ECAE6C /* AppsCollectionViewCell.h */,
+				3CAB15691C6A648300ECAE6C /* AppsCollectionViewCell.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3CAB15121C65948200ECAE6C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB151C1C65A4D900ECAE6C /* APIConnection.h */,
+				3CAB151D1C65A4D900ECAE6C /* APIConnection.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		94F13B0BF2A5F5A44A56B328 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CA0AB39D057AC2E1AF91819 /* libPods-GrabilityTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD7D72D1B03CC6EE149A725E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEC647D8AE2E177E890FA915 /* Pods-GrabilityTest.debug.xcconfig */,
+				AFF0C20481DB4EDAE8B70A4E /* Pods-GrabilityTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CAB14F11C65945900ECAE6C /* GrabilityTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAB150C1C65945900ECAE6C /* Build configuration list for PBXNativeTarget "GrabilityTest" */;
+			buildPhases = (
+				C37BC42B4C7F84E2507EDFBA /* Check Pods Manifest.lock */,
+				3CAB14EE1C65945900ECAE6C /* Sources */,
+				3CAB14EF1C65945900ECAE6C /* Frameworks */,
+				3CAB14F01C65945900ECAE6C /* Resources */,
+				D98D6CBE6485B6C24202D081 /* Embed Pods Frameworks */,
+				0B217BB0414E35E460B88BF6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrabilityTest;
+			productName = GrabilityTest;
+			productReference = 3CAB14F21C65945900ECAE6C /* GrabilityTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CAB14EA1C65945900ECAE6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Graciela Lucena";
+				TargetAttributes = {
+					3CAB14F11C65945900ECAE6C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3CAB14ED1C65945900ECAE6C /* Build configuration list for PBXProject "GrabilityTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CAB14E91C65945900ECAE6C;
+			productRefGroup = 3CAB14F31C65945900ECAE6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CAB14F11C65945900ECAE6C /* GrabilityTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CAB14F01C65945900ECAE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAB15081C65945900ECAE6C /* LaunchScreen.storyboard in Resources */,
+				3CAB15051C65945900ECAE6C /* Assets.xcassets in Resources */,
+				3CAB15181C659F6600ECAE6C /* Podfile in Resources */,
+				3CAB15001C65945900ECAE6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B217BB0414E35E460B88BF6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrabilityTest/Pods-GrabilityTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C37BC42B4C7F84E2507EDFBA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D98D6CBE6485B6C24202D081 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrabilityTest/Pods-GrabilityTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CAB14EE1C65945900ECAE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAB15481C66EC3A00ECAE6C /* idModel.m in Sources */,
+				3CAB155B1C69063000ECAE6C /* CategoriesTableViewCell.m in Sources */,
+				3CAB15521C66ED0C00ECAE6C /* releaseDateModel.m in Sources */,
+				3CAB15641C69863B00ECAE6C /* feedModel.m in Sources */,
+				3CAB15271C66E5EF00ECAE6C /* imageModel.m in Sources */,
+				3CAB152A1C66E66500ECAE6C /* summaryModel.m in Sources */,
+				3CAB154F1C66ECE600ECAE6C /* categoryModel.m in Sources */,
+				3CAB14FD1C65945900ECAE6C /* MainViewController.m in Sources */,
+				3CAB15421C66E8D800ECAE6C /* entryModel.m in Sources */,
+				3CAB15241C66E59100ECAE6C /* nameModel.m in Sources */,
+				3CAB15451C66EA0700ECAE6C /* linkModel.m in Sources */,
+				3CAB155E1C69118300ECAE6C /* CategoriesViewController.m in Sources */,
+				3CAB152D1C66E6A400ECAE6C /* priceModel.m in Sources */,
+				3CAB15611C697A4B00ECAE6C /* AppsTableViewCell.m in Sources */,
+				3CAB15551C68EFC400ECAE6C /* manageData.m in Sources */,
+				3CAB15361C66E76000ECAE6C /* titleModel.m in Sources */,
+				3CAB15031C65945900ECAE6C /* GrabilityTest.xcdatamodeld in Sources */,
+				3CAB15301C66E71B00ECAE6C /* contentTypeModel.m in Sources */,
+				3CAB15211C66E4D800ECAE6C /* attributesModel.m in Sources */,
+				3CAB15331C66E74000ECAE6C /* rightsModel.m in Sources */,
+				3CAB14FA1C65945900ECAE6C /* AppDelegate.m in Sources */,
+				3CAB15671C69AC9800ECAE6C /* AppDetailViewController.m in Sources */,
+				3CAB151E1C65A4D900ECAE6C /* APIConnection.m in Sources */,
+				3CAB154C1C66ECBB00ECAE6C /* artistModel.m in Sources */,
+				3CAB156A1C6A648300ECAE6C /* AppsCollectionViewCell.m in Sources */,
+				3CAB14F71C65945900ECAE6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CAB14FE1C65945900ECAE6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CAB14FF1C65945900ECAE6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CAB15061C65945900ECAE6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CAB15071C65945900ECAE6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CAB150A1C65945900ECAE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CAB150B1C65945900ECAE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CAB150D1C65945900ECAE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC647D8AE2E177E890FA915 /* Pods-GrabilityTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrabilityTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GracielaLucena.GrabilityTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CAB150E1C65945900ECAE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF0C20481DB4EDAE8B70A4E /* Pods-GrabilityTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrabilityTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GracielaLucena.GrabilityTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CAB14ED1C65945900ECAE6C /* Build configuration list for PBXProject "GrabilityTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAB150A1C65945900ECAE6C /* Debug */,
+				3CAB150B1C65945900ECAE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAB150C1C65945900ECAE6C /* Build configuration list for PBXNativeTarget "GrabilityTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAB150D1C65945900ECAE6C /* Debug */,
+				3CAB150E1C65945900ECAE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CAB15011C65945900ECAE6C /* GrabilityTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CAB15021C65945900ECAE6C /* GrabilityTest.xcdatamodel */,
+			);
+			currentVersion = 3CAB15021C65945900ECAE6C /* GrabilityTest.xcdatamodel */;
+			path = GrabilityTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3CAB14EA1C65945900ECAE6C /* Project object */;
+}

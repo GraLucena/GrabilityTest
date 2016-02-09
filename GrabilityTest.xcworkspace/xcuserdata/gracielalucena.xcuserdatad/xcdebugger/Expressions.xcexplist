@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[manageData saveApps:]:manageData.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[APIConnection fetchApps:]:APIConnection.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.apps">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[entryModel link]:entryModel.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_linkData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainViewController tableView:numberOfRowsInSection:]:MainViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_apps">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[entryModel initWithCoder:]:entryModel.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[linkModel JSONKeyPathsByPropertyKey]:linkModel.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_attributesData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CategoriesViewController viewDidLoad]:CategoriesViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_apps">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[linkModel attributes]:linkModel.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_attributesData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainViewController tableView:cellForRowAtIndexPath:]:MainViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_apps">
+            </PersistentString>
+            <PersistentString
+               value = "_category">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CategoriesViewController getCategoriesName]:CategoriesViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_categoriesArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainViewController viewDidLoad]:MainViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.appsSaved">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainViewController getApps]:MainViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_apps">
+            </PersistentString>
+            <PersistentString
+               value = "_manageData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
